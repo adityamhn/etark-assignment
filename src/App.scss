@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Basis";
+  src: local("Basis"), url("./assets/fonts/FontsFree-Net-BasisGrotesquePro-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Basis-light";
+  src: local("Basis-light"), url("./assets/fonts/FontsFree-Net-BasisGrotesquePro-Light.ttf");
+}
+
+@font-face {
+  font-family: "Basis-bold";
+  src: local("Basis-bold"), url("./assets/fonts/FontsFree-Net-BasisGrotesquePro-Bold.ttf");
+}
+
+* {
+  font-family: "Basis";
+}

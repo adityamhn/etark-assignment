@@ -1,0 +1,165 @@
+.about-container {
+    background: #fdfdfd;
+    .about-wrapper {
+        padding: 2rem 23rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @media only screen and (max-width: 1178px) {
+            padding: 2rem 18rem;
+        }
+
+        @media only screen and (max-width: 1028px) {
+            padding: 2rem 15rem;
+        }
+
+        @media only screen and (max-width: 928px) {
+            padding: 2rem 10rem;
+        }
+
+        @media only screen and (max-width: 728px) {
+            padding: 2rem 8rem;
+        }
+
+        @media only screen and (max-width: 658px) {
+            padding: 2rem 5rem;
+        }
+
+        @media only screen and (max-width: 448px) {
+            padding: 2rem 2.5rem;
+        }
+
+        .abt-heading {
+            font-family: "Basis";
+            font-size: 2.2rem;
+            margin: 0.6rem 0rem;
+            color: #111;
+
+            @media only screen and (max-width: 448px) {
+                font-size: 1.8rem;
+            }
+        }
+
+        .abt-text {
+            font-size: 1.1rem;
+            line-height: 140%;
+            color: #111;
+
+            @media only screen and (max-width: 448px) {
+                font-size: 0.9rem;
+            }
+        }
+
+        .abt-ques {
+            align-self: flex-start;
+            font-size: 1.1rem;
+            margin: 1rem 0rem;
+
+            @media only screen and (max-width: 448px) {
+                font-size: 0.9rem;
+            }
+        }
+
+        .resolve-heading {
+            font-size: 1.5rem;
+            margin: 2rem 0rem 0.4rem 0rem;
+            color: #111;
+
+            @media only screen and (max-width: 448px) {
+                font-size: 1.2rem;
+            }
+        }
+
+        .resolve-text {
+            font-size: 1.1rem;
+            line-height: 140%;
+            margin: 1rem 0rem;
+            color: #111;
+
+            @media only screen and (max-width: 448px) {
+                font-size: 0.9rem;
+            }
+        }
+
+        .accordian {
+            margin: 0.8rem 0rem;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+            border-radius: 10px;
+            width: 100%;
+
+            &::before {
+                height: 0px;
+            }
+
+            .acc-header {
+                padding: 0.6rem 2rem;
+                border: none;
+
+                .acc-head {
+                    color: #235fd3;
+                    font-size: 1.3rem;
+                    font-weight: bold;
+
+                    @media only screen and (max-width: 448px) {
+                        font-size: 1rem;
+                    }
+                }
+            }
+
+            .acc-details {
+                padding: 0.5rem 3rem 2rem 3rem;
+                font-size: 1.1rem;
+                display: flex;
+                flex-direction: column;
+
+                @media only screen and (max-width: 448px) {
+                    padding: 0.5rem 1.5rem 2rem 1.5rem;
+                }
+
+                @media only screen and (max-width: 448px) {
+                    font-size: 1rem;
+                }
+
+                .acc-top {
+                    font-weight: bold;
+                    line-height: 140%;
+                    color: #111;
+                }
+
+                .acc-ol {
+                    margin-top: 1.5rem;
+                    .acc-li {
+                        font-size: 1.1rem;
+                        line-height: 160%;
+                        margin-top: 1rem;
+                        color: #111;
+
+                        @media only screen and (max-width: 448px) {
+                            margin-top: 0.8rem;
+                        }
+
+                        @media only screen and (max-width: 448px) {
+                            font-size: 0.9rem;
+                        }
+                    }
+                }
+
+                .acc-bottom {
+                    font-size: 1.1rem;
+                    line-height: 140%;
+                    margin-top: 1.5rem;
+                    color: #111;
+
+                    @media only screen and (max-width: 448px) {
+                        margin-top: 1.2rem;
+                    }
+
+                    @media only screen and (max-width: 448px) {
+                        font-size: 0.9rem;
+                    }
+                }
+            }
+        }
+    }
+}
